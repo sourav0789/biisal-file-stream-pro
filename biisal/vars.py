@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-bot_name = "Bɪɪsᴀʟ Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
+bot_name = "SB Fɪʟᴇ2Lɪɴᴋ Bᴏᴛ"
 sourav_channel = "https://telegram.me/Sourav00876"
 sourav_grp = "https://t.me/movierequestgroupMZ"
 
@@ -15,7 +15,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '21100083'))
     API_HASH = str(getenv('API_HASH', '8980ecdc34880454c2e31eec10033f5b'))
     BOT_TOKEN = str(getenv('BOT_TOKEN' , ''))
-    name = str(getenv('name', 'bisal_file2link_bot'))
+    name = str(getenv('name', 'rosestreamsbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002168616184'))
@@ -26,7 +26,7 @@ class Var(object):
     OWNER_ID = [int(x) for x in os.environ.get("OWNER_ID", "6402721511").split()]
     NO_PORT = bool(getenv('NO_PORT', False))
     APP_NAME = None
-    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'Sourav00876'))
+    OWNER_USERNAME = str(getenv('OWNER_USERNAME', 'robartlandcovis'))
     if 'DYNO' in environ:
         ON_HEROKU = True
         APP_NAME = str(getenv('APP_NAME')) #dont need to fill anything here
@@ -39,7 +39,7 @@ class Var(object):
         URL = "https://{}/".format(FQDN)
     else:
         URL = "http://{}/".format(FQDN)
-    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://emmansantoa3:SmaI5gdhayWFzouF@cluster0.ri0swli.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
+    DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://curtismooney571:6rVT1rlXpKFPVDtc@cluster0.wf5q9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
     UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'bisal_files')) 
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "")).split()))   
     BAN_CHNL = list(set(int(x) for x in str(getenv("BAN_CHNL", "")).split()))   
